@@ -10,7 +10,7 @@ function Post() {
     .catch((error)=>console.log(error));
 },[])
   return (
-    <div>
+    <div className='d-flex justify-content-center'>
         {posts.length >0 ? 
         (<div>
             {posts.map((post)=>(<div  key={post.id}>
@@ -26,6 +26,12 @@ function Post() {
                     <i className="bi bi-chat"></i>
                     <i className="bi bi-send"></i>
                     
+                </div>
+                <div>
+                    <b>{post.likes} Likes</b>
+                </div>
+                <div>
+                    <p>{post.caption}</p>   
                 </div>
 
             </div>))}
