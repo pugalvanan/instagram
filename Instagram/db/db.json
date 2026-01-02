@@ -40,5 +40,30 @@
       ],
       "timestamp": "2025-02-12T09:15:00Z"
     }
+  ],  
+  "profile":
+  [
+    {
+      "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile.jpeg"
+    },
+    {
+      "id": 102,
+        "username": "emma_smith",
+        "profile_pic": "src/assets/profile2.jpeg"
+    }],
+    "suggestions":
+  [ 
+    {
+       "id": 102,
+        "username": "emma_smith",
+        "profile_pic": "src/assets/profile2.jpeg"
+    },
+    {
+       "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile.jpeg"
+    }
   ]
 }
